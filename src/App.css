@@ -1,11 +1,10 @@
-.title {
-  text-align: center;
-  margin-bottom: 5rem;
-}
-
-.content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 1rem;
-}
+body {background-color: #ffffff; color: #333; font-size: 14px; line-height: 1.5em; margin: 0; padding: 0; text-align: left; font-family: Montserrat, Helvetica, sans-serif; font-weight: 400;}
+h1 {font-weight: 800; font-size: 20px;}
+.pop-up {width: 450px; height: 170px; margin: 0; padding: 0;}
+.header {width: 100%; height: 60px; background-color: blue; margin: 0; padding: 0; color: white; display: flex; justify-content: flex-start; align-items: center;}
+.content {width: 100%; height: 100%; padding: 20px 30px;}
+.img {align-self: center; padding: 10px;}
+.theImg {width: auto; height: 40px;}
+.cButton {background-color: #04d9dd; color: black; text-decoration: none; padding: 10px 20px; border-radius: 20px; font-size: 12px; text-transform: uppercase;}
+.cButton:hover {opacity: 0.7;}
+.theLink {padding-top: 25px;}

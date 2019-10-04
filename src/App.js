@@ -1,10 +1,25 @@
 import React from 'react';
-import Counter from './Counter';
+// import Counter from './Counter';
 import './App.css';
 
 function App() {
   return (
     <>
+   <div class="pop-up">
+	<div class="header">
+		<div class="img"><img class="theImg" src="orbs-logo.png"/></div>
+	</div>
+	<div class="content">
+		<div class="cText">
+			<h1>The Blockchain Art Marketplace</h1>
+			<p>If you plan to sell your art, you know what to do:</p>
+		</div>
+		<div>
+			<input type="file" />
+			<div class="theLink"><a class="cButton" id="theUploadButton" href="#">Upload</a></div>
+		</div>
+	</div>
+</div>
       <h1 className="title">Welcome to Orbs Starter Kit!</h1>
       <article className="content">
         <section>
@@ -35,7 +50,7 @@ function App() {
         </section>
         <section>
           <h3>Counter Example</h3>
-          <Counter />
+          {/* <Counter /> */}
         </section>
       </article>
     </>

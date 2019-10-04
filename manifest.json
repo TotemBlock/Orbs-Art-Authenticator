@@ -20,7 +20,7 @@
     "matches": [
       "<all_urls>"
     ],
-    "js": ["jquery-3.4.1.min.js", "content.js"]
+    "js": ["build/static/js/content.js"]
     }
 ]
 }
