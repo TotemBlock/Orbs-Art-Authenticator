@@ -5,6 +5,7 @@
   "dependencies": {
     "jquery-simple-upload": "^1.1.0",
     "js-sha256": "^0.9.0",
+    "nodemon": "^1.19.3",
     "orbs-client-sdk": "1.0.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -13,7 +14,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "eject": "react-scripts eject",
     "build": "react-scripts build",
+    "watch": "nodemon --exec \"react-scripts build\" --watch src",
     "test": "react-scripts test",
     "lint": "prettier --write \"src/**/*.js\""
   },

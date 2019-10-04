@@ -1,20 +1,6 @@
 <!DOCTYPE html>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-<script type="text/javascript" src="sha256.js"></script>
-<script type="text/javascript">
-	function encodeImageFileAsURL(element) {
-  var file = element.files[0];
-  var reader = new FileReader();
-  reader.onloadend = function() {
-    console.log('RESULT', reader.result)
-  }
-	reader.readAsDataURL(file);
-	var hash = sha256.create();
-	hash.update('RESULT', reader.result);
-	console.log(hash);
-}
 
-</script>
 <style>
 body {background-color: #ffffff; color: #333; font-size: 14px; line-height: 1.5em; margin: 0; padding: 0; text-align: left; font-family: Montserrat, Helvetica, sans-serif; font-weight: 400;}
 h1 {font-weight: 800; font-size: 20px;}
@@ -38,8 +24,8 @@ h1 {font-weight: 800; font-size: 20px;}
 			<p>If you plan to sell your art, you know what to do:</p>
 		</div>
 		<div>
-			<input type="file" onchange="encodeImageFileAsURL(this)" />
-			<div class="theLink"><a class="cButton" href="#">Upload</a></div>
+			<input type="file" />
+			<div class="theLink"><a class="cButton" id="theUploadButton" href="#">Upload</a></div>
 		</div>
 	</div>
 <div>
